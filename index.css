@@ -1,0 +1,21 @@
+.div-grid{
+    display: grid;
+    grid-template-areas: 
+     'kolonne kolonne kolonne ' ;
+    grid-gap: 20px;
+    text-align: center;
+    align-content: center;
+    width: 99%;
+    padding-top: 200px;
+}
+
+.main-text{
+    background-color: #222;
+    border: 2px solid #444;
+    color: white;
+}
+
+.main-text p{
+    font-size: 18px;
+    margin: 40;
+}
